@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="2dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0dp">
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/trusted_chef_image"
+            android:layout_width="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:civ_border_width="1.5dp"
+            android:layout_marginBottom="10dp"
+            app:civ_border_color="@color/grayTextSecondary"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignEnd="@id/trusted_chef_image"
+            android:layout_alignBottom="@id/trusted_chef_image"
+            android:src="@drawable/trusted"/>
+        <TextView
+            android:layout_width="90dp"
+            android:gravity="center"
+            android:layout_below="@id/trusted_chef_image"
+            android:layout_height="wrap_content"
+            android:id="@+id/trusted_chef_name"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/grayTextSecondary"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

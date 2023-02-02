@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MyRecipesActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_recipes_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grayText"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="0dp"/>
+    <ImageView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_recipes_toolbar"
+        android:visibility="gone"
+        android:src="@drawable/no_data"/>
+        <RelativeLayout
+            android:layout_below="@id/my_recipes_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nada"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nada"
+                android:visibility="gone"
+                android:textColor="@color/grayTextSecondary"
+                android:textSize="14sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/my_recipes_recycler"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="60dp"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/bottom_banner_main_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </RelativeLayout>
+</RelativeLayout>

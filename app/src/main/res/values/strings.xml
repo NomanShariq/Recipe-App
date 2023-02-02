@@ -1,0 +1,344 @@
+<resources>
+    <string name="app_name" translatable="false">Recipes</string>
+    <string name="domain_name" translatable="false">http://recipes.todocode.me</string>
+    <string name="email" translatable="false">todocode.inc@gmail.com</string>
+    <string name="lang" translatable="false">en</string>
+    <string name="ad_attribution" translatable="false">Ad</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <!-- FACEBOOK LOGIN-->
+    <string name="facebook_app_id" translatable="false">643764999865522</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb643764999865522</string>
+    <!-- YOUR APP WILL NOT WORK WITHOUT A VALID PURCHASE CODE-->
+    <string name="licence_purchase_code" translatable="false">YOUR_CODECANYON_LICENCE</string>
+    <!-- GOOGLE LOGIN-->
+    <string name="google_client_id" translatable="false">422363242715-gr5p4rop0rqeq7i03tqff039u9aovl1l.apps.googleusercontent.com</string>
+    <!--  Privacy Policy -->
+    <string name="privacy_policy_text" translatable="false"><![CDATA[ <p>Effective date: April 20, 2020</p>
+<p>Recipes ("us", "we", or "our") operates the Recipes mobile application (the "Service").</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+<h2>Information Collection And Use</h2>
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+<h3>Types of Data Collected</h3>
+<h4>Personal Data</h4>
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Cookies and Usage Data</li>
+</ul>
+<h4>Usage Data</h4>
+<p>When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").</p>
+<h4>Tracking & Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+<h2>Use of Data</h2>
+<p>Currencies uses the collected data for various purposes:</p>
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul>
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Morocco and choose to provide information to us, please note that we transfer the data, including Personal Data, to Morocco and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>Quiz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2>Disclosure Of Data</h2>
+<h3>Legal Requirements</h3>
+<p>Quiz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of Currencies</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul>
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2>Children\'s Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+        <li>By email: todocode.inc@gmail.com</li>
+        </ul>]]></string>
+    <!--==== End Privacy Policy ====-->
+
+    <!-- Start Terms -->
+    <string name="terms_of_use_text" translatable="false"><![CDATA[ <p>Effective date: April 20, 2020</p>
+<p>Recipes ("us", "we", or "our") operates the Recipes mobile application (the "Service").</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+<h2>Information Collection And Use</h2>
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+<h3>Types of Data Collected</h3>
+<h4>Personal Data</h4>
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Cookies and Usage Data</li>
+</ul>
+<h4>Usage Data</h4>
+<p>When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").</p>
+<h4>Tracking & Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+<h2>Use of Data</h2>
+<p>Currencies uses the collected data for various purposes:</p>
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul>
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Morocco and choose to provide information to us, please note that we transfer the data, including Personal Data, to Morocco and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>Quiz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2>Disclosure Of Data</h2>
+<h3>Legal Requirements</h3>
+<p>Quiz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of Currencies</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul>
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2>Children\'s Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+        <li>By email: todocode.inc@gmail.com</li>
+        </ul>]]></string>
+    <!-- Settings | Don't Change This -->
+    <string name="my_preference" translatable="false">"IntroPref"</string>
+    <string name="my_preference_key" translatable="false">IntroPrefKey</string>
+    <string name="my_permissions" translatable="false">"todocode.com.Permissions"</string>
+    <string name="my_permissions_key" translatable="false">todocode.com.PermissionsKey</string>
+    <string name="my_preference_permission_key" translatable="false">todocode</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="vegetarian_array">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <!-- Intro Pages -->
+    <string name="start">Start</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="slider1_title">Welcome</string>
+    <string name="slider1_description">Thank you for downloading our application!</string>
+    <string name="slider2_title">Register</string>
+    <string name="slider2_description">Create an account to unlock all features!</string>
+    <string name="slider3_title">Discover</string>
+    <string name="slider3_description">Discover a range variety of recipes!</string>
+    <string name="slider4_title">Upload</string>
+    <string name="slider4_description">Add and upload your own recipes!</string>
+    <string name="slider5_title">Receive</string>
+    <string name="slider5_description">Receive Paypal donations by our users</string>
+    <!-- Splash Screen Page -->
+    <string name="splash_connection_problem_title">Internet Problem</string>
+    <string name="splash_connection_problem_message">Connection not available, Cross check your internet connectivity and try again</string>
+    <string name="splash_connection_problem_retry">RETRY</string>
+    <!-- Welcome Page -->
+    <string name="welcome_title">Welcome to Recipes!</string>
+    <string name="welcome_subtitle">To discover all our tastebud tickling recipes and features, please login or create a free account.</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="or">or use</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="new_member">New Member ?</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="toast_check_agree">Please agree with our terms</string>
+    <string name="agree_with_terms">I agree with</string>
+    <string name="login_email_hint">Enter Your Email</string>
+    <string name="login_password_hint">Enter Your Password</string>
+    <string name="register_your_username">Choose a username</string>
+    <string name="register_your_password">Choose a password</string>
+    <string name="already_a_member">Already a Member ?</string>
+    <string name="login_now">Login Now!</string>
+    <string name="create_account">Create Account!</string>
+    <string name="please_agree_with_terms">Please agree with our terms!</string>
+    <string name="register_username_error">Please enter a valid username!</string>
+    <string name="register_email_error">Please enter a valid email!</string>
+    <string name="login_error">- These credentials does not match our records!</string>
+    <string name="login_password_empty">Password can not be empty!</string>
+    <string name="login_email_empty">Please enter a valid email!</string>
+    <string name="email_exists">- A user with this email already exists!</string>
+    <string name="username_exists">- A user with this username already exists!</string>
+    <string name="device_exists">- Only 1 account per device is allowed!</string>
+    <string name="register_success">Registered successfully!</string>
+    <string name="login_success">Connected successfully!</string>
+    <!-- Complete Profile Page -->
+    <string name="about_you">About (Short bio)</string>
+    <string name="gender">Your Gender</string>
+    <string name="vegetarian">Vegetarian ? (Show me only vegetarian recipes)</string>
+    <string name="facebook_url_hint">Facebook url</string>
+    <string name="twitter_url_hint">Twitter url</string>
+    <string name="instagram_url_hint">Instagram url</string>
+    <string name="paypal_url_hint">Paypal.me link (optional)</string>
+    <string name="save">Save</string>
+    <string name="complete_profile">Complete Profile</string>
+    <string name="skip_now">Skip</string>
+    <string name="image_changed">Image changed successfully</string>
+    <string name="facebook_error">Enter a valid Facebook URL</string>
+    <string name="twitter_error">Enter a valid Twitter URL</string>
+    <string name="instagram_error">Enter a valid Instagram URL</string>
+    <string name="paypal_error">Enter a valid Paypal.me URL</string>
+    <string name="infos_saved">Infos saved successfully!</string>
+    <string name="toolbar_social">Social Media</string>
+    <!-- Drawer Menu -->
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_profile">Profile</string>
+    <string name="drawer_menu_categories">Categories</string>
+    <string name="drawer_menu_favorites">Favorites</string>
+    <string name="drawer_menu_shopping_list">Shopping List</string>
+    <string name="drawer_menu_recipes">Recipes</string>
+    <string name="drawer_menu_instructions">Instructions</string>
+    <string name="drawer_menu_privacy">Privacy Policy</string>
+    <string name="drawer_menu_terms">Terms of Use</string>
+    <string name="drawer_menu_rate_app">Rate this App</string>
+    <string name="drawer_menu_share_app">Share this App</string>
+    <string name="drawer_menu_report_bug">Report a Bug</string>
+    <string name="drawer_menu_contact">Contact us</string>
+    <string name="drawer_menu_exit">Exit</string>
+    <string name="drawer_menu_logout">Logout</string>
+    <string name="drawer_menu_app">Application</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="rate_us">Rate us</string>
+    <string name="search">Search</string>
+    <!-- Rating System -->
+    <string name="rate_dialog_title">How was your experience with us ?</string>
+    <string name="rate_dialog_cancel">Not Now</string>
+    <string name="rate_form_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="rate_dialog_submit">Submit Feedback</string>
+    <string name="rate_dialog_suggest">Suggestions</string>
+    <string name="rate_dialog_suggestion">Tell us how we can improve this app ..</string>
+    <!-- Main Activity Page -->
+    <string name="daily_inspiration">Daily Inspiration</string>
+    <string name="home_bottom">Home</string>
+    <string name="explore_bottom">Explore</string>
+    <string name="profile_bottom">Profile</string>
+    <string name="add_bottom">Add</string>
+    <string name="settings_bottom">Settings</string>
+    <string name="search_recipes">Search for recipes</string>
+    <string name="most_popular">Popular Recipes</string>
+    <string name="view_all">View all</string>
+    <string name="what_meal">Which Meal Are You Looking For?</string>
+    <string name="what_cuisine">Quick Search By Cuisine</string>
+    <string name="quick">Quick Recipes</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="inspiring_reads">Inspiring Reads</string>
+    <!-- Profile Activity Page -->
+    <string name="edit_infos">Edit Profile</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="my_favorites">Favorites</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_social">Edit Social Accounts</string>
+    <!-- My Recipes Activity Page -->
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="title">Recipe title</string>
+    <string name="description">Recipe description</string>
+    <string name="time">Time (In minutes)</string>
+    <string name="servings">Servings (How many person)</string>
+    <string name="calories">Calories</string>
+    <string name="category">Recipe category</string>
+    <string name="meal">Recipe meal</string>
+    <string name="cuisine">Recipe cuisine</string>
+    <string name="veg">Suitable for vegetarians ?</string>
+    <string name="video_url">Video Url (Optional)</string>
+    <string name="add_recipe_new">Add New Recipe</string>
+    <string name="add_ingredients">Add Ingredients</string>
+    <string name="not_empty">This field can not be empty!</string>
+    <string name="add_steps">Add Steps</string>
+    <string name="add_step">Add Step</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="send_to_review">Send to Review</string>
+    <!-- All Recipes Activity Page -->
+    <string name="all_recipes">All Recipes</string>
+    <string name="my_favorites_recipes">Favorites Recipes</string>
+    <string name="browse_by_category">Browse By Category</string>
+    <string name="browse_by_meal">Browse By Meal</string>
+    <string name="browse_by_cuisine">Browse By Cuisine</string>
+    <string name="donate">Donate</string>
+    <string name="donate_via_paypal">Donate via Paypal</string>
+    <string name="chef_recipes">Chef Recipes</string>
+    <string name="add_to_fav">Add To Favorites</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="rate">Rate Recipe</string>
+    <string name="add_to_shopping">Add to Shopping List</string>
+    <string name="rate_recipe">Rate Recipe</string>
+    <string name="related_recipes">Related Recipes</string>
+    <string name="share_recipe">Share Recipe</string>
+    <string name="menu_report_a_bug">Report a Bug</string>
+    <string name="trusted_chefs">Trusted Chefs</string>
+    <string name="my_groceries">My Groceries</string>
+    <string name="all_articles">All Articles</string>
+    <string name="article">Article</string>
+    <string name="articles">Articles</string>
+    <string name="nada">Nothing Found!</string>
+    <string name="exit">Exit</string>
+    <string name="really_exit">Do you really want to exit ?</string>
+    <string name="recipes">Recipes</string>
+    <string name="chef_profile">Chef Profile</string>
+    <string name="all_chefs">All Chefs</string>
+    <string name="share_article">Share this article</string>
+    <string name="veg_add">Show this recipe only to vegetarians</string>
+    <string name="add_your_own_item">Add Your Own Items</string>
+    <string name="menu_report_a_bug_message">To report a bug or a problem in this application, Please contact us via Email\nThank You!</string>
+</resources>

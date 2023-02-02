@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.todocode.recipesdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Manager.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="false"
+        tools:replace="android:supportsRtl"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.AllChefsActivity"></activity>
+        <activity android:name=".Activity.ShoppingListActivity" />
+        <activity android:name=".Activity.SingleChefActivity" />
+        <activity android:name=".Activity.BrowseByCuisineActivity" />
+        <activity android:name=".Activity.BrowseByMealActivity" />
+        <activity android:name=".Activity.BrowseByCategoryActivity" />
+        <activity android:name=".Activity.AddStepsActivity" />
+        <activity android:name=".Activity.AddIngredientsActivity" />
+        <activity android:name=".Activity.EditMyRecipeActivity" />
+        <activity android:name=".Activity.EditProfileSocialActivity" />
+        <activity android:name=".Activity.MyFavoritesRecipes" />
+        <activity android:name=".Activity.MyRecipesActivity" />
+        <activity android:name=".Activity.AddNewRecipeActivity" />
+        <activity android:name=".Activity.EditProfileActivity" />
+        <activity android:name=".Activity.AllArticlesActivity" />
+        <activity android:name=".Activity.SingleArticleActivity" />
+        <activity android:name=".Activity.AllCategoriesActivity" />
+        <activity android:name=".Activity.SearchRecipesActivity" />
+        <activity android:name=".Activity.AllRecipesActivity" />
+        <activity android:name=".Activity.SingleRecipeActivity" />
+        <activity android:name=".Activity.MyProfileActivity" />
+        <activity android:name=".Activity.CompleteSocialMediaActivity" />
+        <activity android:name=".Activity.CompleteProfileActivity" />
+        <activity android:name=".Activity.PrivacyPolicyActivity" />
+        <activity android:name=".Activity.TermsOfUseActivity" />
+        <activity android:name=".Activity.WelcomeActivity" />
+        <activity android:name=".Activity.IntroPagesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SplashScreenActivity" />
+        <activity android:name=".Activity.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

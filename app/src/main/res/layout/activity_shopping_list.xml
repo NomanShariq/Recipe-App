@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ShoppingListActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/shopping_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grayText"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="0dp"
+        app:elevation="0dp"/>
+    <ScrollView
+        android:layout_below="@id/shopping_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginEnd="5dp"
+                android:id="@+id/my_grocery"
+                style="@style/RighteousFontFamilyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/my_groceries"
+                android:gravity="center_vertical"
+                android:textColor="@color/grayTextSecondary"
+                android:textSize="26sp"/>
+            <TextView
+                android:layout_marginEnd="5dp"
+                android:id="@+id/titles"
+                android:layout_below="@id/my_grocery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 Ingredients"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:textSize="14sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/shopping_recycler"
+                android:layout_below="@+id/titles"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="15dp"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

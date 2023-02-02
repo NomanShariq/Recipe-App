@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:clickable="false"
+    android:focusable="false">
+    <LinearLayout
+        android:id="@+id/linear_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/step_tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Step"
+            style="@style/IntroFontFamilyStyle"
+            android:textColor="@color/grayTextSecondary"
+            android:padding="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/step_number"
+            android:textSize="15sp"
+            style="@style/IntroFontFamilyStyle"
+            android:textColor="@color/grayTextSecondary"
+            android:textStyle="bold"
+            android:padding="2dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_below="@id/linear_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/step_name"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:padding="2dp"/>
+</RelativeLayout>

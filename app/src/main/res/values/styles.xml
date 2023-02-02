@@ -1,0 +1,60 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/grayText</item>
+    </style>
+
+    <style name="CustomRatingBarStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_rating_bar</item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">47dip</item>
+    </style>
+
+    <style name="FullHeightDialog" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Lobster Font Style -->
+    <style name="IntroFontFamilyStyle" parent="AppTheme">
+        <item name="android:fontFamily">@font/lobster</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:width">20dp</item>
+        <item name="android:height">17dp</item>
+    </style>
+
+    <!-- Alatsi Font Style -->
+    <style name="alatsiFontFamilyStyle" parent="AppTheme">
+        <item name="android:fontFamily">@font/alatsi</item>
+    </style>
+
+    <!-- Sofia Font Style -->
+    <style name="FontFamilyStyleAclonica" parent="AppTheme">
+        <item name="android:fontFamily">@font/sofia</item>
+    </style>
+
+    <!-- righteous Font Style -->
+    <style name="RighteousFontFamilyStyle" parent="AppTheme">
+        <item name="android:fontFamily">@font/righteous</item>
+    </style>
+
+    <!-- staatliches Font Style -->
+    <style name="StatelishFontFamilyStyle" parent="AppTheme">
+        <item name="android:fontFamily">@font/staatliches</item>
+    </style>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "40856566143",
+    "project_id": "recipes-268619",
+    "storage_bucket": "recipes-268619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40856566143:android:0b0a33bf97583312cbc24a",
+        "android_client_info": {
+          "package_name": "com.todocode.recipesdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40856566143-03eotofkoi8grfn506pekssc11f0marf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNr7pCNj8JLXXjnY4Vm_ZKJlEtIwB8Xss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40856566143-03eotofkoi8grfn506pekssc11f0marf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

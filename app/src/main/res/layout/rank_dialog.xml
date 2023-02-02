@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/rank_dialog_text1"
+        android:textSize="22sp"
+        android:textColor="@color/grayTextSecondary"
+        style="@style/alatsiFontFamilyStyle"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <com.ashokslsk.androidabcd.squarerating.SquareRatingView
+        android:id="@+id/dialog_ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        app:setNumSquare="5"
+        app:setSelectedResource="@drawable/ic_unselected"
+        app:setUnSelectedResource="@drawable/ic_selected"
+        app:setRating="3"
+        app:setStepSize="1.0" />
+
+    <Button android:id="@+id/rank_dialog_button"
+        android:layout_height="35dp"
+        android:text="Rate"
+        android:focusable="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_design_small"
+        android:textColor="#FFF8C6"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/options_search"
+        android:title="@string/search_recipes"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/options_rate"
+        android:title="@string/rate_us"
+        android:icon="@drawable/smart_rate"
+        app:showAsAction="ifRoom" />
+</menu>
